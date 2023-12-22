@@ -10,7 +10,7 @@ def square_numbers():
 
 
 threads = []
-num_threads = 10000
+num_threads = 1000
 
 for i in range(num_threads):
     t = Thread(target=square_numbers)
